@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+@font-face{
+	src: url("../../font/K2D-Light.ttf");
+	font-family: "k2d";
+}
+body{
+	font-family: "k2d";
+}
+header{
+	width: 100%;
+	background-color: #141454;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+    z-index: 1000;
+	box-shadow: 0 5px 20px 0px rgba(20,20,84,0.75);
+}
+.centralni{
+	width: 80%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul{
+	padding-inline-start: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li{
+	padding-right: 40px;
+}
+nav ul li:last-child{
+	padding-right: 0px;
+}
+nav ul li a{
+	font-size: 25px;
+}
+#logo h1{
+	font-size: 35px;
+}
+#logo h1, nav ul li a, #blok-slika-tekst h2, #blok-slika-tekst p{
+	color: white;
+}
+#slika{
+	height: 100vh;
+	background-image: url("../images/web1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+    z-index: 1;
+}
+#blok-slika-centar{
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+	width: 80%;
+	height: inherit;
+	margin: 0px auto;
+}
+#blok-slika-tekst{
+	text-align: center;
+}
+#blok-slika-tekst h2{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+#blok-slika-tekst p{
+	font-size: 40px;
+	font-weight: bold;
+}
+#skills{
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.blok-skills{
+	width: 300px;
+	height: 400px;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+	text-align: center;
+	background-color: grey;
+	border-radius: 25px;
+	box-shadow: 0 10px 20px 10px rgba(0,0,0,0.75);
+}
+.fab{
+	font-size: 200px;
+}
